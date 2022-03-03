@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=League+Gothic&display=swap');
+
+body {
+    background-color: black;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    background-color: #191927;;
+    width: 60%;
+    border: 5px solid #000000;
+    padding: 10px;
+  }
+  
+  .nigger {
+    color: white;
+    font-family: 'Courier Prime', monospace;
+  }
+  .title {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: 'Courier Prime', monospace;
+    font-size: 25px;
+  }
+  
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
