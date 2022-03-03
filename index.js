@@ -4,6 +4,10 @@ const axios = require("axios")
 
 app.use("/public", express.static(__dirname + "/public"))
 
+app.get("/", async function (req, res) {
+    res.redirect('/users')
+})
+
 app.get("/users", async function (req, res) {
     try {
         const ign = req.query.ign || 'Nigerian'
